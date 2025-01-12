@@ -9,7 +9,12 @@ public class Main {
 
         int number = scanner.nextInt();
 
+        Car car = new Car();
+
+        car.speed = 15;
+
 
         System.out.println("this is: " + number);
+        System.out.println(car.speed);
     }
 }
